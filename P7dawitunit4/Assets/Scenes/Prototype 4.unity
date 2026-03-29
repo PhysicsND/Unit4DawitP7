@@ -211,7 +211,7 @@ GameObject:
   - component: {fileID: 485723695}
   - component: {fileID: 485723696}
   m_Layer: 0
-  m_Name: Focal Point
+  m_Name: FocalPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
