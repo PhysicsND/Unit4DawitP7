@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 public class SpawnManager : MonoBehaviour
 {
-    public GameObject enemyPrefab;
+    public GameObject[] enemyPrefabs;
     private float spawnRange = 9.0f;
     public int enemyCount;
     public int waveNumber = 1;
