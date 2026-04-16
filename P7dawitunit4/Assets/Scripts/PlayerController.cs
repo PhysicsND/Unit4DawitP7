@@ -27,7 +27,10 @@ public class PlayerController : MonoBehaviour
         float forwardInput = Input.GetAxis("Vertical");
         playerRb.AddForce(forwardInput * speed * focalPoint.transform.forward);
         powerupIndicator.transform.position = transform.position + new Vector3(0, -0.5f, 0);
-       
+        if (currentPowerUp == PowerUpType.Rockets && Input.GetKeyDown(KeyCode.F))
+        {
+            LaunchRockets();
+        }
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -65,5 +68,14 @@ public class PlayerController : MonoBehaviour
             Debug.Log("Player collided with: " + collision.gameObject.name + " with powerup set to " + currentPowerUp.ToString());
         }
     }
-    
+    void LaunchRockets()
+    {
+        foreach (var enemy in FindObjectsOfType<Enemy>())
+        {
+            tmpRocket = Instantiate(rocketPrefab, transform.position + Vector3.up,
+            Quaternion.identity);
+            tmpRocket.GetComponent<RocketBehavior>().Fire(enemy.transform);
+        }
+    }
+
 }

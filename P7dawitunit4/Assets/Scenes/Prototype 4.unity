@@ -857,7 +857,9 @@ MonoBehaviour:
   - {fileID: 4729352182779536563, guid: cf416b4d6e6001d458cb484a218876a1, type: 3}
   enemyCount: 0
   waveNumber: 1
-  powerupPrefab: {fileID: 6604278181545600846, guid: bc0e2cb0650ff2c47a97b82eb7c67138, type: 3}
+  powerupPrefabs:
+  - {fileID: 6604278181545600846, guid: bc0e2cb0650ff2c47a97b82eb7c67138, type: 3}
+  - {fileID: 1192983798335586, guid: 9e928de923724f54ea836e735efdd8b6, type: 3}
 --- !u!4 &2137321566
 Transform:
   m_ObjectHideFlags: 0
