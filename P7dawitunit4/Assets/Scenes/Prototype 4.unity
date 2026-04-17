@@ -399,7 +399,7 @@ MonoBehaviour:
   hasPowerup: 0
   powerupIndicator: {fileID: 1926341647}
   currentPowerUp: 0
-  rocketPrefab: {fileID: 0}
+  rocketPrefab: {fileID: 7531499134430723766, guid: 71b89ab63e0f5a24ca24ae9c9eecd9da, type: 3}
 --- !u!1 &1211016355
 GameObject:
   m_ObjectHideFlags: 0
