@@ -245,7 +245,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68f934a6d630fa74693165f35cb86f03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 67
+  rotationSpeed: 100
 --- !u!1 &587692806
 GameObject:
   m_ObjectHideFlags: 0
@@ -818,6 +818,7 @@ MonoBehaviour:
   powerupPrefabs:
   - {fileID: 6604278181545600846, guid: bc0e2cb0650ff2c47a97b82eb7c67138, type: 3}
   - {fileID: 1192983798335586, guid: 9e928de923724f54ea836e735efdd8b6, type: 3}
+  - {fileID: 619900882159177149, guid: bcc700baa1ec53a44bfd7755bb841c26, type: 3}
 --- !u!4 &2137321566
 Transform:
   m_ObjectHideFlags: 0
